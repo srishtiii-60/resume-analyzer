@@ -1,0 +1,51 @@
+"""Skill dictionary: canonical skill name -> list of aliases/synonyms."""
+
+SKILL_ALIASES = {
+    # Languages
+    "python": ["python", "python3"],
+    "java": ["java"],
+    "javascript": ["javascript", "js", "ecmascript"],
+    "typescript": ["typescript", "ts"],
+    "c++": ["c++", "cpp"],
+    "c#": ["c#", "csharp"],
+    "c": ["c programming"],
+    "php": ["php"],
+    "sql": ["sql", "t-sql", "pl/sql"],
+    # Web
+    "html": ["html", "html5"],
+    "css": ["css", "css3"],
+    "react": ["react", "reactjs", "react.js"],
+    "node.js": ["node.js", "nodejs", "node"],
+    "flask": ["flask"],
+    "django": ["django"],
+    "spring boot": ["spring boot", "springboot", "spring"],
+    "rest api": ["rest api", "restful", "rest apis", "api", "apis"],
+    # Data / AI
+    "machine learning": ["machine learning", "ml"],
+    "deep learning": ["deep learning", "neural network", "neural networks"],
+    "nlp": ["nlp", "natural language processing"],
+    "data analysis": ["data analysis", "data analytics", "eda"],
+    "pandas": ["pandas"],
+    "numpy": ["numpy"],
+    "scikit-learn": ["scikit-learn", "sklearn"],
+    "tensorflow": ["tensorflow"],
+    "pytorch": ["pytorch"],
+    "power bi": ["power bi", "powerbi"],
+    "excel": ["excel", "ms excel"],
+    "tableau": ["tableau"],
+    # Databases
+    "mysql": ["mysql"],
+    "mongodb": ["mongodb", "mongo"],
+    "sqlite": ["sqlite"],
+    "postgresql": ["postgresql", "postgres"],
+    # Tools / concepts
+    "git": ["git"],
+    "github": ["github"],
+    "docker": ["docker"],
+    "linux": ["linux"],
+    "oop": ["oop", "oops", "object oriented", "object-oriented"],
+    "data structures": ["data structures", "dsa", "algorithms"],
+    "agile": ["agile", "scrum"],
+    "aws": ["aws", "amazon web services"],
+    "llm": ["llm", "llms", "large language model", "gemini api", "openai"],
+}
