@@ -56,10 +56,10 @@ pytest
 4. `overall = 0.7 * skill score + 0.3 * similarity`
 
 ## Live Demo
-Add your Streamlit Cloud link here after deployment.
+https://srishti-resume-analyzer.streamlit.app
 
 ## Screenshots
-Add screenshots in the `docs/` folder and link them here:
+![App](docs/screenshot.png)
 `![App](docs/screenshot.png)`
 
 ## Limitations
